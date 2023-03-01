@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+display: flex;
+ flex-direction: column;  
+ background-color: rgb(142, 190, 238); 
+ width: 100%;
+ max-width: 54000px;
+ width:700px;
+ height: 100%;
+ max-height: 5400px;
+ height: 560px;
+ padding: 20px ;
+ margin: 50px 500px;
+ align-items: center;
+ border-radius: 9px;
+ 
+}
+
+.inputs {
+
+    height: 60px;
+    width: 600px;
+    border-radius: 9px;
+    
+    
+}
+
+.btn {
+
+    height: 60px;
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 9px;
+    background-color: rgb(143, 238, 143);
+
+}
+
+ .To-do { border: solid rgb(94, 91, 91); 
+    height:158px;
+    width: 600px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid black;
+    justify-content: space-evenly; 
+    padding-top: 10px;
+    
+
+ }
+ .data {
+   height: 35px; 
+   border-radius: 9px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+.Delete {
+
+    height: 20px;
+    margin-left: 34px;
+    border-radius: 9px;
+    background-color: rgb(135, 240, 135);
+}
+ 
+
+
